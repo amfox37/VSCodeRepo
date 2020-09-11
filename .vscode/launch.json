@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "configurations": [
+      {
+        "name": "Debug Fortran & build",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${workspaceRoot}/${fileBasenameNoExtension}.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceRoot}",
+        "externalConsole": false,
+        "MIMode": "lldb",
+        "preLaunchTask": "build_gfortran"
+      }
+    ]
+  }
