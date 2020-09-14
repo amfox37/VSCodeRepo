@@ -1,5 +1,5 @@
 program hello
-    implicit none
+  implicit none
     WRITE(*,*) 'Hello world!'
     WRITE(*,*) 'Goodbye world!'
     WRITE(*,*) 'Crazy world!'
