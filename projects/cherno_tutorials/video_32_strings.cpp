@@ -1,8 +1,9 @@
 #include <iostream>
+#include <string>
 
 int main()
 {
-    const char* name = "Cherno";
+    std::string name = "Cherno"; // Char pointer of course
     char name2[7] = {'C', 'h', 'e', 'r', 'n', 'o', '\0'};
 
     std::cout << name << std::endl;
@@ -10,3 +11,4 @@ int main()
 
     std::cin.get();
 }
+

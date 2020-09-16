@@ -12,7 +12,6 @@ int main()
         example[i] = 2;
     }
     
-    
     std::cout << example[4] << std::endl;
 
     std::cin.get();
