@@ -9,7 +9,6 @@ int main()
     using namespace std::string_literals;
     std::string name0 = "Cherno"s + "hello";
 
-
     std::cout << name << std::endl;
     std::cout << name2 << std::endl;
     std::cout << name0 << std::endl;
