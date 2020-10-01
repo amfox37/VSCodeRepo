@@ -10,7 +10,7 @@ class Example
     
     Example(int x)
     {
-        std::cout << "Created Entity with" << x << "!" << std::endl;
+        std::cout << "Created Entity with " << x << "!" << std::endl;
     }
 };
 
@@ -22,13 +22,13 @@ class Entity
     Example m_Example;
     public:
     Entity()
+        : m_Example(8)
     {
         m_Name = "Unknown";
-        m_Example = Example(8);
     }
 
     Entity(const std::string& name)
-    :         m_Name(name)
+        :m_Name(name)
     {
     }
 
