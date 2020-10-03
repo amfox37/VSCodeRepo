@@ -11,5 +11,9 @@ int main()
     else
     s_Speed = 5;
 
+    s_Speed = s_Level > 5 ? 10 : 5; // Another way to write the if else using ternary operator ( ? )
+
     std::cin.get();
+
+
 }
