@@ -13,7 +13,15 @@ int main()
 
     s_Speed = s_Level > 5 ? 10 : 5; // Another way to write the if else using ternary operator ( ? )
 
+    std::string Rank;
+    if (s_Level > 10)
+        Rank = "Master";
+    else
+        Rank = "Beginner";  
+         
+    std::string otherRank = s_Level > 10 ? "Master" : "Beginner"; // Another way to write the if else using ternary operator ( ? )
+
+    std::cout << otherRank << std::endl;
+
     std::cin.get();
-
-
 }
