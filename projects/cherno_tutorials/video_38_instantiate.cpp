@@ -16,8 +16,11 @@ class Entity
 
 int main()
 { 
-    Entity entity("Andy"); // This is allocating on the stack...
-    std::cout << entity.GetName() << std::endl;
-
+    Entity* e;
+    {
+        Entity entity("Andy"); // This is allocating on the stack...
+        e = &entity;
+        std::cout << entity.GetName() << std::endl;
+    }
     std::cin.get();
 }
