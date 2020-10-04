@@ -16,12 +16,10 @@ class Entity
 
 int main()
 { 
-    Entity* e;
-    {
-        Entity* entity = new Entity("Andy"); // This is now allocating on the heap, so survives outside {}...
-        e = entity;
-        std::cout << entity->GetName() << std::endl;
-    }
+    int a = 2;
+    int* b = new int[50]; //an array of 200 bytes (50 * 4bytes)
+
+    Entity* e = new Entity();
+
     std::cin.get();
-    delete e; // after using new keyword, now have to delete to free memory
 }
