@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "configurations": [
+      {
+          "fortran.provideCompletion": true,
+          "fortran.provideSymbols": true,
+          "fortran.provideHover": true,
+          "fortran.preferredCase": "lowercase"
+      }
+    ]
+}
